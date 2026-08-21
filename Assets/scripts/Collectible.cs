@@ -15,8 +15,12 @@ public class Collectible : MonoBehaviour
         // Check if the object entering has the "Player" tag
         if (other.CompareTag("Player"))
         {
-            // Add custom player logic here (e.g., increase score)
-
+            // NEW: Find the HUD manager and add to the counter
+            HUDManager hud = FindFirstObjectByType<HUDManager>();
+            if (hud != null)
+            {
+                hud.AddCollectible();
+            }
             // Remove the collectible from the scene
             Destroy(gameObject);
         }
