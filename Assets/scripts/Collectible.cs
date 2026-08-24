@@ -3,6 +3,13 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    internal static int totalCollected;
+
+    private void Start()
+    {
+        totalCollected = 0;
+    }
+
     // Optional visual juice: Rotate the object over time
     void Update()
     {
@@ -17,6 +24,7 @@ public class Collectible : MonoBehaviour
         {
             // NEW: Find the HUD manager and add to the counter
             HUDManager hud = FindFirstObjectByType<HUDManager>();
+            totalCollected++; 
             if (hud != null)
             {
                 hud.AddCollectible();
