@@ -6,7 +6,7 @@ public class PlayerHealth : MonoBehaviour
     private int currentHealth;
 
     // Type the EXACT name of your Game Over scene in the Inspector
-    public string Gameover= "GameOver";
+    public string gameOver= "Game over";
 
     void Start()
     {
@@ -25,14 +25,15 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Player has died! Loading Game Over scene...");
+       
 
         // 3. This line triggers the scene swap
-        SceneManager.LoadScene(Gameover);
+        SceneManager.LoadScene(gameOver);
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        
         if (hit.gameObject.CompareTag("Enemy"))
            TakeDamage(1);
     }
