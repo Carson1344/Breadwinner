@@ -17,4 +17,8 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("PlayGame");
     }
+    public void OpenCollectionRoom()
+    {
+        SceneManager.LoadScene("Collection room");
+    }
 }
