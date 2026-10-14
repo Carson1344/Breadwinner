@@ -57713,6 +57713,7 @@ GameObject:
   - component: {fileID: 1142987988}
   - component: {fileID: 1142987987}
   - component: {fileID: 1142987986}
+  - component: {fileID: 1142987990}
   m_Layer: 0
   m_Name: Objective
   m_TagString: Untagged
@@ -57813,6 +57814,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1142987990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142987985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba4a52e49fba194c95d65920fb18cca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WinZone
+  winSceneName: You win
 --- !u!4 &1154144018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1273845513402454637, guid: a6f6293c3d06d8f428de31d7e4e26a82, type: 3}
