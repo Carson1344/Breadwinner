@@ -87467,6 +87467,7 @@ GameObject:
   - component: {fileID: 1554926187}
   - component: {fileID: 1554926186}
   - component: {fileID: 1554926190}
+  - component: {fileID: 1554926191}
   m_Layer: 0
   m_Name: Tv
   m_TagString: Untagged
@@ -87597,6 +87598,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9416695, y: 1, z: 1}
   m_Center: {x: 0.47083473, y: 0, z: 0}
+--- !u!114 &1554926191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554926185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f98a397100be44b8647000c1210965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TVInteractable
+  tvSceneName: TVViewerScene
 --- !u!1 &1560219177
 GameObject:
   m_ObjectHideFlags: 0
