@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 188892099}
   - component: {fileID: 188892098}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,8 +447,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -36.6, y: -41.1}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -35.3, y: -37.262}
+  m_SizeDelta: {x: 261.3929, y: 74.5248}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491713761
 MonoBehaviour:
@@ -526,8 +526,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: cacc1d0e3c2820545b6b11c8a6f7aaea, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 634801461}
   - component: {fileID: 634801460}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: BD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -727,18 +727,18 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 101276048}
+  - {fileID: 1445587463}
+  - {fileID: 243287853}
+  - {fileID: 1933228499}
+  - {fileID: 382074352}
+  - {fileID: 1239977894}
+  - {fileID: 1874481066}
   - {fileID: 188892097}
   - {fileID: 1458838672}
   - {fileID: 634801459}
   - {fileID: 1097378116}
   - {fileID: 794707632}
   - {fileID: 2075204612}
-  - {fileID: 1239977894}
-  - {fileID: 1874481066}
-  - {fileID: 1445587463}
-  - {fileID: 243287853}
-  - {fileID: 1933228499}
-  - {fileID: 382074352}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -758,7 +758,7 @@ GameObject:
   - component: {fileID: 794707634}
   - component: {fileID: 794707633}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: FD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -925,7 +925,7 @@ GameObject:
   - component: {fileID: 1097378118}
   - component: {fileID: 1097378117}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: CODS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1094,7 +1094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 41, y: -6}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247298450
@@ -1144,13 +1144,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.89
-  m_fontSizeBase: 29.89
+  m_fontSize: 22.82
+  m_fontSizeBase: 22.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1183,7 +1183,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 29.345896, z: -3.0725174, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1281,7 +1281,7 @@ GameObject:
   - component: {fileID: 1458838674}
   - component: {fileID: 1458838673}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: ND
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 2075204614}
   - component: {fileID: 2075204613}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: DS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
