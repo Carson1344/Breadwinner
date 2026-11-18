@@ -324,7 +324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 69524878eca2ad74caace419cc9f1fa4, type: 3}
+  m_Texture: {fileID: 2800000, guid: cd337d7df37834c4dafbeba37b496d11, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -396,12 +396,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: ff39ae27ddc64ae408a1e9130e4809a9, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
+    x: -1.09
+    y: -0.09
+    width: 1.18
     height: 1
 --- !u!222 &382074354
 CanvasRenderer:
@@ -439,7 +439,7 @@ RectTransform:
   m_GameObject: {fileID: 491713759}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.13388704, y: 0.35883, z: 1}
+  m_LocalScale: {x: 0.11309706, y: 0.44164938, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1247298449}
@@ -447,7 +447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35.3, y: -37.262}
+  m_AnchoredPosition: {x: -37.5, y: -34.2}
   m_SizeDelta: {x: 261.3929, y: 74.5248}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491713761
@@ -1045,13 +1045,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: adb17b0e2a770434aa66275a74bef427, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 0
+    x: -0.91
     y: 0
-    width: 1
-    height: 1
+    width: 0.82
+    height: 0.92
 --- !u!222 &1239977896
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1257,7 +1257,7 @@ MonoBehaviour:
   m_Texture: {fileID: 2800000, guid: dc3709364f00df9458531e36071f7975, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 5.19
+    x: 5.22
     y: -0.03
     width: 0.64
     height: 1
@@ -1480,13 +1480,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 92b15afeb6baa5e4d9b405b34cc7d728, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: -0.74
+    y: 0.06
+    width: 0.52
+    height: 0.75
 --- !u!222 &1874481068
 CanvasRenderer:
   m_ObjectHideFlags: 0
